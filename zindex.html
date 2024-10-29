@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        #a{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            z-index: 1;
+            
+        }
+        #b{
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            margin-left: -200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="a"></div>
+        <div id="b"></div>
+    </div>
+</body>
+</html>
+<!-- oru divne vere onninte mukalil akanenkil margin value -ve kodukanam.adiyil ullathine munnilot konduvaran zindex =1 kodukanam-->
